@@ -40,91 +40,6 @@ website:
         file: syllabus.md
       - text: "Choosing charts"
         file: selecting-charts.md
-      # - section: "Prompting"
-      #   file: headlines/index.qmd
-      #   contents:
-      #     - text: The value of chat
-      #       file: headlines/basics.qmd
-      #     - file: headlines/prompt-engineering.qmd
-      #     - file: headlines/rule-of-five.qmd
-      #     - file: headlines/conversations.qmd
-      #     - file: headlines/conclusion.qmd
-      # # - section: "How it works"
-      #   file: how-it-works/index.qmd
-      # - section: "Semantic search"
-      #   contents:
-      #     - file: semantic-search/explanation.qmd
-      # - section: "Experimenting and sharing"
-      #   contents:
-      #     - text: Intro
-      #       file: demos/010-intro.qmd
-      #     - text: Automatic demos
-      #       file: demos/020-auto-spaces.qmd
-      #     - text: Custom model pages
-      #       contents:
-      #       - text: "01: Basic demos"
-      #         file: demos/030-learning-gradio.qmd
-      #       - text: "02: Adjusting outputs"
-      #         file: demos/035-gradio-inputs.qmd
-      # - section: "Introduction"
-      #   contents:
-      #   - file: intro/index.qmd
-      #   - text: "What is a model?"
-      #     file: intro/models.qmd
-      #   - text: "Training a model"
-      #     file: intro/fine-tune-model.qmd
-      # - section: "Existing models"
-      #   contents:
-      #   - text: "How to use"
-      #     file: existing-models.qmd
-      #   - section: "📝 Text"
-      #     contents:
-      #     - text/index.qmd
-      #     - text: "Classifying"
-      #       file: text/text-classification.qmd
-      #     - text: "Extracting people and organizations"
-      #       file: text/named-entity-recognition.qmd
-      #     - text: "Document similarity"
-      #       file: text/document-similarity.qmd
-      #     - text: "Asking PDFs questions"
-      #       file: text/asking-pdfs-questions.qmd
-      #     - text: "Asking documents questions"
-      #       file: text/asking-documents-questions.qmd
-      #   - section: "🖼️ Images"
-      #     contents:
-      #     - images/index.qmd
-      #     - text: "Classifying"
-      #       file: images/image-classification.qmd
-      #     - text: "Asking questions"
-      #       file: images/vqa.qmd
-      #     - text: "Counting things"
-      #       file: images/instance-segmentation.qmd
-      #     - text: "Measuring amounts"
-      #       file: images/semantic-segmentation.qmd
-      #     - text: "Describing images"
-      #       file: images/image-description.qmd
-      #   - section: "🔊 Audio"
-      #     contents:
-      #     - audio/index.qmd
-      #     - text: "Transcription"
-      #       file: audio/transcription.qmd
-      #     - text: "Noise removal"
-      #       file: audio/removing-noise.qmd
-      #   - section: "🎬 Video"
-      #     contents:
-      #     - video/index.qmd
-      # - section: "Build your own"
-      #   contents:
-      #   - text: "Customization overview"
-      #     file: diy/index.qmd  
-      #   - text: "Text classifier"
-      #     file: diy/text-classification.qmd
-      #   - text: "Image classifier"
-      #     file: diy/image-classification.qmd
-      #   - text: "Exploring the possibilities"
-      #     file: diy/research.qmd
-      #   - text: "Custom tools"
-      #     file: diy/custom.qmd  
   page-footer: 
     border: false
     background: dark
@@ -143,20 +58,11 @@ website:
 format:
   html:
     code-overflow: wrap
-    # template-partials:
-    #   - partials/title-block.html
     callout-appearance: simple
-    # fontsize: 1.1em;
-    # toc: false
-    # toc-title: Table of contents
     theme:
       - cosmo
       # - lumen
       # - quartz
       - custom.scss
-    css: static/style.css
+    # css: static/style.css
     number-sections: false
-    # grid:
-    #   sidebar-width: 350px
-    #   body-width: 900px
-    #   margin-width: 250px
