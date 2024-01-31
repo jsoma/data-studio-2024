@@ -3,7 +3,6 @@ title: "Data Studio, 2024"
 format:
   html:
     toc: true
-    embed-resources: true
     linkcolor: red
     theme: cosmo
 tbl-colwidths: [15,15,35,35]
