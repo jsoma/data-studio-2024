@@ -35,9 +35,11 @@ website:
     collapse-level: 3
     contents:
       - text: "Home"
-        file: index.qmd
+        file: index.md
       - text: "Syllabus"
         file: syllabus.md
+      - text: "Choosing charts"
+        file: selecting-charts.md
       # - section: "Prompting"
       #   file: headlines/index.qmd
       #   contents:
